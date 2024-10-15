@@ -1,0 +1,12 @@
+# Input 5 numbers
+numbers = []
+print("Enter 5 numbers:")
+for i in range(5):
+    num = int(input())
+    numbers.append(num)
+
+# Add all elements in the list
+total_sum = sum(numbers)
+
+# Output the result
+print("The sum of the numbers is:", total_sum)
